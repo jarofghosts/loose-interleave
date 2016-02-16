@@ -1,0 +1,31 @@
+{
+  "name": "loose-interleave",
+  "version": "1.0.0",
+  "description": "loose interleave",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "lint": "standard index.js tests/index.js",
+    "test": "node tests/index.js && npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jarofghosts/loose-interleave.git"
+  },
+  "keywords": [
+    "array",
+    "interleave"
+  ],
+  "author": "jesse keane",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jarofghosts/loose-interleave/issues"
+  },
+  "homepage": "https://github.com/jarofghosts/loose-interleave#readme",
+  "devDependencies": {
+    "standard": "^6.0.5",
+    "tape": "^4.4.0"
+  }
+}
